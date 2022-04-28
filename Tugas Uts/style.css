@@ -1,0 +1,104 @@
+body{
+    background: darkcyan;
+    height: 7000px;
+}
+.container, .logo, .menu{
+    float: left;
+    margin-top: 25px;
+    display: flex;
+    
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border: 3px solid;
+}
+.menu{
+    background-color: none;
+    height: 30px;
+    width: 800px;
+    border: 2px solid black;
+    display: flex;
+    margin-top: 95px;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+.menu ul{
+    padding: 0;
+    margin: 0;
+}
+.menu ul li{
+    display: inline;
+    margin-left: 60px;
+    line-height: 30px;
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 3px 15px;
+    border-radius: 10px;
+    background: #999998;
+
+}
+.menu ul li :hover{
+    background-color: blue;
+}
+.menu ul li a{
+    color: #f0ffff;
+}
+.form{
+    background: white;
+    width: 650px;
+    height: 450px;
+    border: 2px solid;
+    float: left;
+} 
+.box{
+    width: 650px;
+    height: 450px;
+}
+.form{
+    background: white;
+    width: 650px;
+    height: 450px;
+    border: 2px solid;
+    float: left;
+    margin-top: 10px;
+    display: flex;
+} 
+.slide image{
+    float: left;
+    margin-top: 500px;
+}
+.box1 .box2 .box3 .box4{
+    float: left;
+    justify-content: center;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.box1{
+    width:150px;
+    height:200px;
+    background:darkgray;
+    border:3px black;
+}
+.box2{
+    width:150px;
+    height:200px;
+    background:darkgray;
+    border: 3px black;
+}
+.box3{
+    width:150px;
+    height:200px;
+    background:darkgray;
+    border: 3px black;
+}
+.box4{
+    width:150px;
+    height:200px;
+    background:darkgray;
+    border: 3px black;
+}
+
